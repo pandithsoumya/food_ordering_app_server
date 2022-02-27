@@ -1,0 +1,26 @@
+{
+  "name": "food_ordering_app_server",
+  "version": "1.0.0",
+  "description": "food_ordering_app_server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "soumya pandith",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "graphql-type-json": "^0.3.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "moment-timezone": "^0.5.33",
+    "nodemon": "^2.0.12",
+    "stream-to-array": "^2.3.0"
+  }
+}
